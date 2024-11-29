@@ -1,0 +1,66 @@
+body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    /* Flexbox Example */
+    .flex-container {
+      display: flex;
+      gap: 10px;
+      background-color: #f0f0f0;
+      padding: 10px;
+    }
+
+    .flex-item {
+      background-color: #add8e6;
+      padding: 20px;
+      border: 1px solid #ccc;
+    }
+
+    /* Grid Example */
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      background-color: #f9f9f9;
+      padding: 10px;
+    }
+
+    .grid-item {
+      background-color: #ffcccb;
+      padding: 20px;
+      border: 1px solid #ccc;
+    }
+
+    /* Inline Flex Example */
+    .inline-flex-container {
+      display: inline-flex;
+      gap: 10px;
+      background-color: #d1f7c4;
+      padding: 10px;
+    }
+
+    .inline-flex-item {
+      background-color: #ffc107;
+      padding: 10px;
+      border: 1px solid #ccc;
+    }
+
+    /* Run-in Example */
+    h2.run-in {
+      display: run-in;
+      font-style: italic;
+      color: #444;
+    }
+
+    p {
+      margin: 0;
+      padding: 10px;
+    }
+
+    /* List Item Example */
+    .list-item {
+      display: list-item;
+      list-style-type: disc;
+      margin-left: 20px;
+    }

@@ -1,0 +1,29 @@
+ 
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        header, section, footer {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 10px solid #ddd;
+        }
+        header h1 {
+            color: darkblue;
+        }
+        ul, ol {
+            margin: 10px 0;
+        }
+        form {
+            margin-top: 20px;
+        }
+        input, button {
+            margin: 10px 0;
+        }
+		image{
+			width:40px;
+		}
+    

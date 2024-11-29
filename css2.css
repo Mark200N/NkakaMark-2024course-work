@@ -1,0 +1,29 @@
+* Element selector */
+    p {
+      color: blue;
+    }
+
+    /* ID selector */
+    #special {
+      font-weight: bold;
+    }
+
+    /* Class selector */
+    .highlight {
+      background-color: yellow;
+    }
+
+    /* Descendant selector */
+    div p {
+      font-size: 30px;
+    }
+
+    /* Direct descendant selector */
+    div > p {
+      border: 1px solid black;
+    }
+
+    /* Attribute selector */
+    input[type="text"] {
+      border: 2px solid green;
+    }

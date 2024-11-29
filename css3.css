@@ -1,0 +1,56 @@
+/* Base Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin-left:30px;
+    padding: 0;
+    background-color: black;
+    color: green;
+  border:10px:white;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+main {
+    padding: 20px: green;
+}
+
+h1, h2 {
+    font-family: 'Georgia', serif;
+}
+
+/* Class Selectors for Fonts */
+.serif {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sans-serif {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Text Properties */
+.text-properties {
+    font-size: 1.2em;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.highlight {
+    background-color: yellow;
+    padding: 0 5px;
+}

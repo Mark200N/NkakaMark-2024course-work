@@ -1,0 +1,32 @@
+header{
+  margin:2px;
+  padding:10px;
+  background-color:#27dbb7;
+  }
+ /*Element selector */
+h2{
+  color:white;
+  padding:30px;
+  }
+    p {
+      color:white;
+      padding:20px;
+    }
+
+    /* ID selector */
+    #special {
+      font-weight:italic;
+    }
+
+    /* Class selector */
+    .highlight {
+      background-color: yellow;
+    }
+section{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      background-color:#42bd67;
+      padding: 20px;
+    
+  }

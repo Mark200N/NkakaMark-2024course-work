@@ -1,0 +1,38 @@
+body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .grid-item {
+            background-color:lightgreen;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .image-container {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            border-radius: 50%;
+            width: 120px;
+            height: 150px;
+            margin: 0 auto 20px;
+        }
+
+        . img {
+          border-raduis:150px
+		  width: 80%;
+            height: auto;
+        }
+
+        .paragraph {
+            margin-bottom: 10px;
+        }

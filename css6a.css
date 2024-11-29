@@ -1,0 +1,11 @@
+/* Apply box-sizing to all elements */
+        * {
+            box-sizing: border-box;
+        }
+
+        .example {
+            width: 200px;
+            padding: 20px;
+            border: 5px solid black;
+            background-color: lightgreen;
+        }
